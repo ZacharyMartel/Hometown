@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: #6b2c39;
+
+}
+
+.hero {
+    background-image: url("images/knox-skyline.jpeg");
+    background-size: cover;
+    padding: 300px 0 450px;
+
+
+}
+
+.hero-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#title {
+    color: white;
+    background: #f77f00;
+    font-size: 32px;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 3px 12px 5px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 21px;
+}
+
+#title-tag {
+    color: #f77f00;
+    background: #eae2b7;
+    font-size: 19px;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 5px 28px 8px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px white;
+    width: 355px;
+    margin-top: 0;
+}
+
+.activities {
+padding: 40px;
+height: 380px;
+background-color: #eae2b7;
+}
+
+#activ-title {
+    margin: 0 0 55px;
+    font-size: 30px;
+}
+
+.activ-thumb {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.activ-thumb:hover {
+    box-shadow:  22px 22px 44px #969175,
+                -22px -22px 44px #fffff9;
+    width: 140px;
+    height: 140px;
+    transition: box-shadow .2s ease-in-out, width .2s ease-in-out, height .2s ease-in-out;
+    
+}
+
+.activ-row {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:800px;
+    margin: 0 auto;
+
+}
+
+.activ-col {
+    width: 150px;
+    height: 100px;
+}
+
+.guide {
+Margin: 50px auto;
+height: 100%;
+}
+
+#guide-photo {
+    height: 250px;
+    width: 180;
+    border-radius: 20px;
+    margin-right: 20px
+}
+
+.card {
+    height: 270px;
+    width: 420px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px auto;
+    background: #6b2c39;
+    color: #eae2b7;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow:  39px 39px 63px #441c24,
+                 -39px -39px 63px #923c4e;
+    border-bottom: 2px solid black;
+}
